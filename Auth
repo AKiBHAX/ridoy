@@ -14,10 +14,7 @@ pkg upgrade
 pkg install figlet unzip zip wget -y
 
 sleep 5
-
 clear
-
-printf
 figlet AKiB
 printf "${green}Script by AKiB"
 
