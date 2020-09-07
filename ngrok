@@ -1,0 +1,22 @@
+#usr/bin/sh
+
+pkg update
+pkg upgrade
+pkg install figlet unzip zip wget -y
+
+figlet AKiB
+echo script by AKiB
+
+echo Downloading NGROK 
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+echo 
+echo 
+echo Download Done !
+echo Unzipping File please Wait
+unzip ngrok-stable-linux-arm.zip
+echo Unzipping Done 
+echo Give your AuthToken
+read auth
+chmod +x ngrok
+./ngrok authtoken $auth
+echo NGROK Setup Done !
