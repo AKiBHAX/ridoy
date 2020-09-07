@@ -15,11 +15,14 @@ pkg install figlet unzip zip wget -y
 
 sleep 5
 
+clear
+
 printf
 figlet AKiB
 printf "${green}Script by AKiB"
 
-printf "[!]${blue}ownloading NGROK${reset}"
+printf "[!]${blue}Downloading NGROK${reset}"
+
 sleep 3
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
 echo 
