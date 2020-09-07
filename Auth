@@ -17,20 +17,22 @@ sleep 5
 clear
 figlet AKiB
 printf "${green}Script by AKiB"
-
+printf " "
 printf "[!]${blue}Downloading NGROK${reset}"
-
+printf " "
 sleep 3
 wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-echo 
-echo 
+printf " "
 printf "${green}[!]${blue}Download Done !${green}"
 sleep 2
+printf " "
 printf "[!]${blue}Unzipping File please Wait${reset}"
 sleep 3
+printf " "
 unzip ngrok-stable-linux-arm.zip
 printf "${green}[!]${blue}Unzipping Done"
 sleep 3
+printf " "
 echo Give your AuthToken
 read auth
 chmod +x ngrok
