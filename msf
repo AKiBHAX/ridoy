@@ -1,2 +1,12 @@
 pkg install figlet --silent
+clear
+sleep 2
 figlet AKIB
+echo Installing Metasploit
+echo By Akib
+pkg install root-repo
+clear
+figlet AKIB
+pkg install x11-repo
+pkg install unstable-repo
+pkg install metasploit
