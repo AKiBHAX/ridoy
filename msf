@@ -6,7 +6,7 @@ echo Installing Metasploit
 echo By Akib
 pkg install root-repo
 clear
-sleep1
+sleep 1
 figlet AKIB
 sleep 2
 pkg install x11-repo
